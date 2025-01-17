@@ -33,6 +33,27 @@
     margin: 32px 0px;
 }
 
+.Description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn {
+    border-radius: 8px;
+
+    background: rgb(84, 144, 245);
+    margin: 24px 0px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
 /* Nav Styles */
 header {
     margin: 31px 160px;
@@ -112,5 +133,60 @@ main {
     margin: 0px 16px;
     background: rgb(255, 255, 255);
     padding: 24px;
+
+}
+
+.cardTitle {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Vision Styles */
+.visionMother {
+    display: flex;
+
+}
+
+.sectionDescription {
+    margin: 12px 24px;
+
+}
+
+.visionCard {
+    border-radius: 16px;
+    margin: 0px 24px;
+    padding: 32px;
+
+
+}
+
+.visionCardLeft {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.visionCardMiddle {
+    background: rgb(198, 228, 214);
+}
+
+.visionCardRight {
+    background: rgb(247, 235, 207);
+}
+
+.visionTitle {
+    margin: 12px 0px;
+}
+.btnLeft{
+    background: rgb(84, 144, 245);
+}
+.btnMiddle{
+    background: rgb(9, 161, 92);
+}
+.btnRight{
     
+
+background: rgb(255, 194, 57);
 }
