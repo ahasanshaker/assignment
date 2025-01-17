@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
 }
+
 /* Shared Styles */
 .navTitle {
     font-size: 32px;
@@ -8,20 +9,31 @@
     line-height: 38px;
     text-align: left;
     align-items: center;
-    
+
 }
 
+.fontStyles {
+    color: rgba(14, 14, 14, 0.5);
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+
+}
 
 /* Nav Styles */
-header{
+header {
     margin: 31px 160px;
-    
+
 }
-nav{
+
+nav {
     display: flex;
     gap: 900px;
 }
-.navBtn button{
+
+.navBtn button {
     text-align: right;
     justify-content: center;
     padding: 15px 30px;
@@ -29,4 +41,50 @@ nav{
     color: rgb(0, 106, 80);
     background-color: white;
     border: 1px solid rgb(0, 106, 80);
+}
+
+/* Main Styles */
+main {
+    margin: 0px 160px;
+}
+
+.banner {
+    display: flex;
+    border-radius: 24px;
+
+    background: rgb(198, 228, 214);
+    padding: 80px 60px;
+    gap:30px;
+    
+
+}
+.bannerLeft{
+    width: 700px;
+    align-items: flex-start;
+}
+.bannerTitle {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
+}
+
+.bannerLeft button {
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+
+    background: rgb(0, 106, 80);
+    margin: 24px 0px;
+    color: white;
+    border: none;
+
+}
+
+.bannerLeft p {
+    margin: 16px 0px;
+    
 }
