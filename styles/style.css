@@ -22,6 +22,17 @@
 
 }
 
+.sectionTitle {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 32px 0px;
+}
+
 /* Nav Styles */
 header {
     margin: 31px 160px;
@@ -36,7 +47,7 @@ nav {
 .navBtn button {
     text-align: right;
     justify-content: center;
-    padding: 15px 30px;
+    padding: 15px 20px;
     border-radius: 8px;
     color: rgb(0, 106, 80);
     background-color: white;
@@ -54,14 +65,15 @@ main {
 
     background: rgb(198, 228, 214);
     padding: 80px 60px;
-    gap:30px;
-    
+    gap: 30px;
+
 
 }
-.bannerLeft{
+
+.bannerLeft {
     width: 700px;
-    align-items: flex-start;
 }
+
 .bannerTitle {
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
@@ -86,5 +98,19 @@ main {
 
 .bannerLeft p {
     margin: 16px 0px;
+
+}
+
+/* pillar Styles */
+.pillarCard {
+    display: flex;
+}
+
+.card {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin: 0px 16px;
+    background: rgb(255, 255, 255);
+    padding: 24px;
     
 }
