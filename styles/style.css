@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+/* Shared Styles */
+.navTitle {
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 38px;
+    text-align: left;
+    align-items: center;
+    
+}
+
+
+/* Nav Styles */
+header{
+    margin: 31px 160px;
+    
+}
+nav{
+    display: flex;
+    gap: 900px;
+}
+.navBtn button{
+    text-align: right;
+    justify-content: center;
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    background-color: white;
+    border: 1px solid rgb(0, 106, 80);
+}
